@@ -14,5 +14,10 @@ CELERYBEAT_SCHEDULE = {
         'task': 'app.tasks.test.print_hello',
         # Every minute
         'schedule': crontab(minute="*"),
+    },
+    'test-celery-2': {
+        'task': 'app.tasks.test.get_message',
+        # Every minute
+        'schedule': crontab(minute="*"),
     }
 }

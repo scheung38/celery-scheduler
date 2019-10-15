@@ -2,3 +2,7 @@ redis*/
 celerybeat-schedule
 **/*.pyc
 .DS_Store
+
+.idea/*
+
+venv/*

@@ -20,7 +20,7 @@ EXPOSE 80
 
 # Create virtualenv.
 RUN \
-  pip install --upgrade pip && \
+# pip install --upgrade pip && \
   pip install --upgrade virtualenv && \
   virtualenv -p /usr/bin/python2.7 /home/ubuntu/.virtualenvs/celery_env
 
